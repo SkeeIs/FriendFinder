@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>FriendFinder!</title>
+</head>
+<body>
+  <!-- HTML form with text input fields for name & link to image. Radio buttons for the answers to the 10 questions. Big submit button at bottom -->
+  <div class="container">
+    <h1>Survey Questions</h1>
+    <hr>
+    <h3><strong>About You</strong>
+    </h3>  
+    <form id="form">
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="user-response">
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="user-response">
+    <hr>
+    <h3><strong>Question 1</strong>
+    </h3>
+    <h4>Your mind is always buzzing with unexplored ideas & plans.</h4>
+    <input type="radio" name="Q1" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q1" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q1" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q1" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q1" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 2</strong>
+    </h3>
+    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <input type="radio" name="Q2" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q2" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q2" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q2" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q2" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 3</strong>
+    </h3>
+    <h4>You find it easy to stay relaxed & focused even when there is some pressure.</h4>
+    <input type="radio" name="Q3" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q3" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q3" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q3" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q3" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 4</strong>
+    </h3>
+    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <input type="radio" name="Q4" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q4" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q4" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q4" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q4" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 5</strong>
+    </h3>
+    <h4>People rarely upset you.</h4>
+    <input type="radio" name="Q5" class="user-response" value=1> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q5" class="user-response" value=2> 2<br>
+    <input type="radio" name="Q5" class="user-response" value=3> 3<br>
+    <input type="radio" name="Q5" class="user-response" value=4> 4<br>
+    <input type="radio" name="Q5" class="user-response" value=5> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 6</strong>
+    </h3>
+    <h4>It is often difficult for you to relate to other people's feelings.</h4>
+    <input type="radio" name="Q6" class="user-response" value=1> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q6" class="user-response" value=2> 2<br>
+    <input type="radio" name="Q6" class="user-response" value=3> 3<br>
+    <input type="radio" name="Q6" class="user-response" value=4> 4<br>
+    <input type="radio" name="Q6" class="user-response" value=5> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 7</strong>
+    </h3>
+    <h4>In a discussion, truth should be more important than people's sensitivities.</h4>
+    <input type="radio" name="Q7" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q7" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q7" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q7" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q7" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 8</strong>
+    </h3>
+    <h4>You rarely get carried away by fantasies & ideas.</h4>
+    <input type="radio" name="Q8" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q8" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q8" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q8" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q8" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 9</strong>
+    </h3>
+    <h4>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
+    <input type="radio" name="Q9" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q9" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q9" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q9" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q9" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <hr>
+    <h3><strong>Question 10</strong>
+    </h3>
+    <h4>Your feel more energetic after spending time with a group of people.</h4>
+    <input type="radio" name="Q10" class="user-response" value="1"> 1 (Strongly Disagree)<br>
+    <input type="radio" name="Q10" class="user-response" value="2"> 2<br>
+    <input type="radio" name="Q10" class="user-response" value="3"> 3<br>
+    <input type="radio" name="Q10" class="user-response" value="4"> 4<br>
+    <input type="radio" name="Q10" class="user-response" value="5"> 5 (Strongly Agree)<br>
+    <br>
+    <button type="submit" class="btn btn-lg btn-info btn-block" id="submit">
+      <i class="fa fa-check-circle" aria-hidden="true"></i> 
+      Submit 
+    </button>
+  </form>
+  <!-- bootstrap modal from their documentation. Does some cool stuff like fade in -->
+  <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2 class="modal-title"><strong>Best Match:</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" style="height: 100px" alt="Match Photo">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="/api/friends"> API Friends List</a>
+        </div>
+    </footer>
+  </div>
+
+  <script type="text/javascript">
+  // on click of button with id of submit we begin to do the work
+  $("#submit").on("click", function(event) {
+    //prevent default upon click of submit button
+    event.preventDefault();
+    //userAnswers will hold the values (1-5) relating to users responses to 10 questions, formPath is shortcut pointer, name & photo are grabbing the values input by user at the top of the survey
+    var userAnswers = [];
+    var formPath = document.forms.form;
+    var name = formPath[0].value;
+    var photo = formPath[1].value;
+    
+    //NAME
+    //console.log(formPath[0].value);
+    //PHOTO
+    //console.log(formPath[1].value);
+    //console.log(document.forms);
+
+    //iterate through our array within our formPath, starting at i = 2, because we already stored the values from index 0 & 1 as name & photo above
+    for (var i = 2; i < formPath.length; i++) {
+      //This was the work around I came up with to push the user selected values since I chose to use radio buttons. .checked is a property of type=radio that is a boolean for if the user selected that radio button or not. Probably not best case for a bigger or scalable app because we are iterating through 50 indices to get 10 values.
+      if (formPath[i].checked === true) {
+        userAnswers.push(formPath[i].value);
+      }
+    
+    }
+    
+    //console.log("Array of user response: " + userAnswers);
+    
+    //condition check that we have all input fields & 10 radiobutton responses before we create our userData object for the user
+    if (name && photo && userAnswers.length === 10) {
+      //console.log("durp");
+      var userData = {
+        name: name,
+        photo: photo,
+        answers: userAnswers
+      };
+    }
+    //if the user missed a text field or a survey question politely (ALERT) remind them we need full cooperation
+    else {
+      alert("Please enter your name, a link to your photo & select an answer for all ten questions.")
+    }
+    
+    //ajax post call to our /api/friends route using an anonymous callback function to get back data about the best match & populate the modal
+    $.post("/api/friends", userData, 
+      function(data) {
+      
+        console.log(data);
+        $("#match-name").text(data.name);
+        $("#match-img").attr("src", data.photo);
+        $("#myModal").modal("toggle");
+    })
+  })
+  </script>
+</body>
+</html>
