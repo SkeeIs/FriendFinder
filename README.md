@@ -3,10 +3,10 @@
 A full-stack application deployed to heroku for making new friends! Enter your name & a photo of yourself then answer the 10 questions & we will match you to the most similar personality.
 
 * Powered by Javascript, jquery, node.js, expess package, body-parser package, Heroku deployment, html, bootstrap
-
-
+* [FriendFinder on Heroku](https://tranquil-everglades-65874.herokuapp.com/api/friends)
 
 ### Image Preview of Store Functionality
+
 <!-- take a picture of the image and add it into the readme  -->
 * Homepage ![Homepage](https://i.imgur.com/frBEJjd.png)
 * Survey Page ![Survey](https://i.imgur.com/IsFYK0u.png)
@@ -26,6 +26,7 @@ This web application has been deployed to Heroku, therefore you may use it with 
 
 
 # Code Snippets
+
 <!-- put snippets of code inside ``` ``` so it will look like code -->
 <!-- if you want to put blockquotes use a > -->
 
@@ -74,6 +75,7 @@ Getting a little bit nutty with an express post method
 ```
 
 # Learning points
+
 <!-- Learning points where you would write what you thought was helpful -->
 * Routing routes to the root of the route (I once knew a brute, mute, newt in a suit that played the flute)
 * Putting together a lot of the small pieces we have learned into one fully functioning application
